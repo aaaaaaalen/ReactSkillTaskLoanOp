@@ -1,0 +1,10 @@
+a {
+    text-decoration-line: none;
+
+  }
+
+a:link,
+a:hover,
+a:active {
+color: gray;
+}
