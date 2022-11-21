@@ -1,5 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import ContactsContainer from "../components/UniCon";
+import UniContainer from "../components/UniContainer";
 import { makeStyles } from '@mui/styles';
 import './UniList.css';
 
@@ -19,7 +19,7 @@ export default function App() {
       <Router>
           <main className={classes.root}>       
             <div className={classes.content}>
-                <ContactsContainer />
+                <UniContainer />
             </div>               
         
           </main>      
